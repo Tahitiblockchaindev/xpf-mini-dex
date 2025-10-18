@@ -1,0 +1,36 @@
+/* Style dark/vert inspiré XPF + Pancake-like */
+.pswap-wrapper{max-width:560px;margin:0 auto}
+.pswap-tabs{display:flex;align-items:center;gap:8px;background:#0b1620;border:1px solid #14232d;border-radius:16px;padding:6px 6px 6px 10px;box-shadow:0 6px 22px rgba(0,0,0,.35)}
+.pswap-tabs .tab{border:0;border-radius:12px;padding:10px 14px;background:transparent;color:#bfe8e6;cursor:pointer}
+.pswap-tabs .tab.active{background:#12232f;color:#6ff2c6;font-weight:700}
+.pswap-tabs .spacer{flex:1}
+.icon-btn{border:1px solid #24424f;background:#0e1f28;color:#cfe8e4;border-radius:10px;padding:8px 10px;cursor:pointer}
+
+.pswap-card{margin-top:12px;background:#0d1720;border:1px solid #1e2f3a;border-radius:18px;padding:16px;box-shadow:0 10px 28px rgba(0,0,0,.45)}
+.ps-row{display:flex;justify-content:space-between;font-size:.9rem;color:#9ac2bf;margin-top:6px}
+.ps-label small{opacity:.7}
+.ps-input{display:flex;align-items:center;gap:10px;background:#0b141b;border:1px solid #21313a;border-radius:14px;padding:12px;margin-top:8px}
+.ps-input input{flex:1;background:transparent;border:0;outline:0;color:#e8fffa;font-size:1.2rem}
+.ps-token{display:flex;align-items:center;gap:8px;border:0;background:#0e1f28;border:1px solid #24424f;color:#d6fff6;border-radius:12px;padding:8px 10px;cursor:pointer;white-space:nowrap}
+.ps-token img{width:22px;height:22px;border-radius:999px}
+.ps-amount-readonly{flex:1;text-align:right;color:#7fdcc4;font-weight:600;font-size:1.2rem}
+.ps-swap-center{display:flex;justify-content:center}
+.switch-btn{margin:8px 0;border:1px solid #24424f;background:#0e1f28;color:#cfe8e4;border-radius:999px;width:40px;height:40px;cursor:pointer}
+.ps-slippage{display:flex;justify-content:space-between;align-items:center;margin:10px 2px}
+.link{color:#6fe7c4;cursor:pointer;text-decoration:underline}
+.slip-pill{display:flex;align-items:center;gap:6px;background:#0e1f28;border:1px solid #24424f;color:#cfe8e4;border-radius:999px;padding:6px 10px}
+.slip-pill input{width:70px;background:transparent;border:0;outline:0;color:#e8fffa;text-align:right}
+.ps-primary{width:100%;margin-top:12px;border:0;border-radius:12px;padding:12px;background:linear-gradient(90deg,#00995c,#00d67a);color:#fff;font-weight:800;cursor:pointer}
+.ps-status{min-height:22px;color:#bfe8e6;text-align:center;margin-top:8px}
+
+/* Modal */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);display:flex;align-items:center;justify-content:center;z-index:999}
+.modal{background:#0f1b24;border:1px solid #20313b;border-radius:14px;width:92%;max-width:520px;padding:14px}
+.modal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.input{width:100%;background:#0b141b;border:1px solid #21313a;border-radius:12px;padding:10px;color:#e8fffa;margin:8px 0}
+.token-list{list-style:none;margin:0;padding:0;max-height:320px;overflow:auto;border:1px solid #1a2a34;border-radius:12px}
+.token-list li{display:flex;align-items:center;gap:10px;padding:10px;border-bottom:1px solid #1a2a34;cursor:pointer}
+.token-list li:hover{background:#0b1620}
+.token-list img{width:24px;height:24px;border-radius:999px}
+.custom-add{display:flex;gap:8px;margin-top:10px}
+.btn{border:0;background:#00c06b;color:#fff;border-radius:10px;padding:10px 12px;font-weight:700;cursor:pointer}
